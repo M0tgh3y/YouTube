@@ -1,0 +1,33 @@
+.side-bar {
+    position: fixed;
+    background-color: #FEFEFE;
+    left: 0;
+    top: 65px;
+    width: 70px;
+    bottom: 0;
+}
+
+.sidebar-divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 74px;
+    cursor: pointer;
+}
+
+.sidebar-divs:hover {
+    background-color: lightgray;
+    transition: 0.15s;
+}
+
+.images {
+    width: 25px;
+}
+
+.text-side {
+    margin: 0;
+    font-size: 10px;
+    font-family: Roboto, serif;
+}
